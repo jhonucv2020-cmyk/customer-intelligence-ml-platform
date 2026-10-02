@@ -1,0 +1,49 @@
+{
+  "data": {
+    "rows": 1000,
+    "columns": 21,
+    "missing_values": 256,
+    "duplicate_ids": 0,
+    "churn_rate": 0.24
+  },
+  "business": {
+    "total_customers": 1000,
+    "predicted_churn_customers": 426,
+    "predicted_churn_rate": 0.426,
+    "average_probability": 0.4507544962571528,
+    "monthly_fee_at_risk": 42710.32,
+    "very_high_risk_customers": 113
+  },
+  "technical": {
+    "training_seconds": 0.2730617180000081,
+    "prediction_seconds": 0.027070294999703037,
+    "total_seconds": 1.2583265820003362,
+    "prediction_rows_per_second": 36940.86082220272,
+    "model_class": "LogisticRegression",
+    "pipeline_steps": [
+      "preprocessor",
+      "classifier"
+    ],
+    "metrics": {
+      "accuracy": 0.645,
+      "precision": 0.37894736842105264,
+      "recall": 0.75,
+      "f1": 0.5034965034965035,
+      "roc_auc": 0.728344298245614
+    }
+  },
+  "validation": {
+    "model_file_exists": true,
+    "metrics_file_exists": true,
+    "serialization_consistent": true,
+    "prediction_row_count_matches": true,
+    "probabilities_in_range": true,
+    "predictions_are_binary": true,
+    "customer_ids_unique": true
+  },
+  "artifacts": {
+    "model": "/workspaces/customer-intelligence-ml-platform/entregable_D3_16_repositorio_final_curso_1/artifacts/models/end_to_end_churn_pipeline.joblib",
+    "metrics": "/workspaces/customer-intelligence-ml-platform/entregable_D3_16_repositorio_final_curso_1/reports/metrics/end_to_end_metrics.json",
+    "predictions": "/workspaces/customer-intelligence-ml-platform/entregable_D3_16_repositorio_final_curso_1/reports/predictions/end_to_end_predictions.csv"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "input_file": "/workspaces/customer-intelligence-ml-platform/entregable_D3_16_repositorio_final_curso_1/data/raw/customer_churn.csv",
+  "model_file": "/workspaces/customer-intelligence-ml-platform/entregable_D3_16_repositorio_final_curso_1/artifacts/models/selected_churn_pipeline.joblib",
+  "rows_received": 1000,
+  "rows_predicted": 1000,
+  "threshold": 0.5,
+  "predicted_churn_count": 265,
+  "predicted_churn_rate": 0.265,
+  "average_churn_probability": 0.38758298586076384,
+  "processing_seconds": 0.14059713899996495,
+  "rows_per_second": 7112.520262594029,
+  "campaign_capacity": 150,
+  "consistency_checks": {
+    "same_row_count": true,
+    "unique_output_ids": true,
+    "valid_prediction_values": true,
+    "probabilities_in_range": true
+  }
+}

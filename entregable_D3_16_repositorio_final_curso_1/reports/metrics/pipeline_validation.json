@@ -1,0 +1,13 @@
+{
+  "dataset_signature": "4325d2dce77310d6b471dedc324a944011919e23538e2eb31ff5f8fb4c0d2f7f",
+  "pipeline_structure_valid": true,
+  "transformed_data_has_no_nan": true,
+  "predict_matches_threshold": true,
+  "module_predictions_match": true,
+  "module_probabilities_match": true,
+  "training_metrics_reproducible": true,
+  "batch_predictions_stable": true,
+  "batch_probabilities_stable": true,
+  "serialization_roundtrip_valid": true,
+  "pytest_return_code": 0
+}

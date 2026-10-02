@@ -1,0 +1,35 @@
+{
+  "selected_model": "random_forest",
+  "selection_rule": [
+    "roc_auc",
+    "f1"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "results": [
+    {
+      "model": "random_forest",
+      "accuracy": 0.73,
+      "precision": 0.4482758620689655,
+      "recall": 0.5416666666666666,
+      "f1": 0.49056603773584906,
+      "roc_auc": 0.7376644736842105
+    },
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.645,
+      "precision": 0.37894736842105264,
+      "recall": 0.75,
+      "f1": 0.5034965034965035,
+      "roc_auc": 0.728344298245614
+    },
+    {
+      "model": "decision_tree",
+      "accuracy": 0.565,
+      "precision": 0.3142857142857143,
+      "recall": 0.6875,
+      "f1": 0.43137254901960786,
+      "roc_auc": 0.5966968201754386
+    }
+  ]
+}
